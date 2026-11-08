@@ -1,5 +1,6 @@
 from app.main import app
 
+
 def test_status_200():
     client = app.test_client()
 
